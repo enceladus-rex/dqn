@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dqn"
+version = "0.1.0"
+description = ""
+authors = ["enceladus-rex"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tensorflow = "^2.2.0"
+gym = {extras = ["atari"], version = "^0.17.2"}
+tqdm = "^4.46.1"
+fire = "^0.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+ipython = "^7.15.0"
+yapf = "^0.30.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
