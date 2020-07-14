@@ -33,11 +33,8 @@ apply the kind of deep architectures that were performing well in vision to the 
 
 DQN uses an objective very similar to the well known Q-learning objective function which is formulated as follows:
 
-.. math::
-
-    target(state, reward) = reward + discount\_factor * max_{a} \{Q(state, a)\}
-
-    loss(state, action, reward) = (target(state, reward) - Q(state, action))^2
+.. figure:: images/equation1.png
+.. figure:: images/equation2.png
 
 The Q function, however, is represented as a deep convolution network and optimization
 is performed using backpropagation. Additionally, two important details were found to
