@@ -27,9 +27,9 @@ apply the kind of deep architectures that were performing well in vision to the 
 
 DQN uses an objective very similar to the well known Q-learning objective function which is formulated as follows:
 
-![Equation 1](images/equation1.png)
+<img alt="Equation 1" src="images/equations-0.png" width="550px" />
 
-![Equation 2](images/equation2.png)
+<img alt="Equation 2" src="images/equations-1.png" width="550px" />
 
 <!--
 
