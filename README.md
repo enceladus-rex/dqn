@@ -16,7 +16,8 @@ that were being used at the time. Although linear methods had better convergence
 properties under certain assumptions, they didn't necessarily scale to tackle
 problems with rich input spaces like vision. With the explosion of deep learning
 methods spurred by AlexNet winning the ImageNet challenge, the time was ripe to
-apply the kind of deep architectures that were performing well in vision to the RL domain.
+apply the kind of deep architectures that were performing well in vision to the RL 
+domain.
 
 ### Key Contributions
 
@@ -33,9 +34,9 @@ DQN uses an objective very similar to the well known Q-learning objective functi
 
 <!--
 
-    target(state, reward) = reward + discount\_factor * max_{a} \{Q(state, a)\}
+    target(reward, next\_state) = reward + discount\_factor * max_{a} \{Q(next\_state, a)\}
 
-    loss(state, action, reward) = (target(state, reward) - Q(state, action))^2
+    loss(state, action, reward, next\_state) = (target(reward, next\_state) - Q(state, action))^2
 
 -->
 
