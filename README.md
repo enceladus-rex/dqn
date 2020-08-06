@@ -30,7 +30,7 @@ DQN uses an objective very similar to the well known Q-learning objective functi
 
 <img alt="Equation 1" src="images/equations-0.png" width="550px" />
 
-<img alt="Equation 2" src="images/equations-1.png" width="565px" />
+<img alt="Equation 2" src="images/equations-1.png" width="600px" />
 
 <!--
 
