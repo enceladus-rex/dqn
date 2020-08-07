@@ -28,9 +28,9 @@ domain.
 
 DQN uses an objective very similar to the well known Q-learning objective function which is formulated as follows:
 
-<img alt="Equation 1" src="images/equations-0.png" width="550px" />
+<p align="center"><img alt="Equation 1" src="images/equations-0.png" width="550px" /></p>
 
-<img alt="Equation 2" src="images/equations-1.png" width="600px" />
+<p align="center"><img alt="Equation 2" src="images/equations-1.png" width="600px" /></p>
 
 <!--
 
